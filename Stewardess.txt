@@ -1,0 +1,21 @@
+//Stewardesses
+
+GET: /api/stewardesses/:id
+GET: /api/stewardesses
+
+POST: /api/stewardesses/
+BODY: {
+  name: string,
+  surname: string,
+  dateOfBirth: string 
+}
+
+PUT: /api/stewardesses/:id
+BODY: {
+  name: string,
+  surname: string,
+  dateOfBirth: string 
+}
+
+DELETE: /api/stewardesses/:id
+DELETE: /api/stewardesses

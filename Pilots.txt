@@ -1,0 +1,23 @@
+//Pilots
+
+GET: /api/pilots/:id
+GET: /api/pilots
+
+POST: /api/pilots/
+BODY: {
+  name: string,
+  surname: string,
+  dateOfBirth: string,
+  experience: int 
+}
+
+PUT: /api/pilots/:id
+BODY: {
+  name: string,
+  surname: string,
+  dateOfBirth: string,
+  experience: int 
+}
+
+DELETE: /api/pilots/:id
+DELETE: /api/pilots

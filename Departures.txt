@@ -1,0 +1,25 @@
+//Departures
+
+GET: /api/departures/:id
+GET: /api/departures
+
+POST: /api/departures/
+BODY: {
+  flightId: int,
+  departureDate: string,
+  crewId: int,
+  airplaneId: int 
+}
+
+PUT: /api/departures/:id
+BODY: {
+  flightId: int,
+  departureDate: string,
+  crewId: int,
+  airplaneId: int  
+}
+
+DELETE: /api/departures/:id
+DELETE: /api/departures
+
+

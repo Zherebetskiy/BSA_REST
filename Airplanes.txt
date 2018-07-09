@@ -1,0 +1,23 @@
+//Airplanes
+
+GET: /api/airplanes/:id
+GET: /api/airplanes
+
+POST: /api/airplanes/
+BODY: {
+  name: string,
+  airplaneTypeId: int,
+  releaseDate: string,
+  timeSpan: int 
+}
+
+PUT: /api/airplanes/:id
+BODY: {
+  name: string,
+  airplaneTypeId: int,
+  releaseDate: string,
+  timeSpan: int
+}
+
+DELETE: /api/airplanes/:id
+DELETE: /api/airplanes

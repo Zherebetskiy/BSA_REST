@@ -1,0 +1,20 @@
+//Tickets
+
+GET: /api/tickets/:id
+GET: /api/tickets
+
+POST: /api/tickets/
+BODY: {
+  price: int,
+  flightId: int
+}
+
+PUT: /api/tickets/:id
+BODY: {
+  price: int,
+  flightId: int
+}
+
+DELETE: /api/tickets/:id
+DELETE: /api/tickets
+

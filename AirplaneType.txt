@@ -1,0 +1,22 @@
+//AirplaneTypes
+
+GET: /api/airplanetypes/:id
+GET: /api/airplanetypes
+
+POST: /api/airplanetypes/
+BODY: {
+  model: string,
+  amountOfPlace: int,
+  carryingCapacity: int
+}
+
+PUT: /api/airplanetypes/:id
+BODY: {
+  model: string,
+  amountOfPlace: int,
+  carryingCapacity: int
+}
+
+DELETE: /api/airplanetypes/:id
+DELETE: /api/airplanetypes
+

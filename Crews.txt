@@ -1,0 +1,19 @@
+//Crews
+
+GET: /api/crews/:id
+GET: /api/crews
+
+POST: /api/crews/
+BODY: {
+  pilotId: int,
+  stewardress : List<stewadressId>
+}
+
+PUT: /api/crews/:id
+BODY: {
+  pilotId: int,
+  stewardress : List<stewadressId>
+}
+
+DELETE: /api/crews/:id
+DELETE: /api/crews
